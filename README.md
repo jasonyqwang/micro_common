@@ -5,5 +5,5 @@
 
 ## 使用方式
     
-    go get github.com/micro_common
+    go get github.com/jasonyqwang/micro_common
 

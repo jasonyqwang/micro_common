@@ -1,4 +1,4 @@
-module github.com/micro_common
+module github.com/jasonyqwang/micro_common
 
 go 1.16
 
