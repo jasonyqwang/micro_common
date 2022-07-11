@@ -22,9 +22,9 @@ func (t AliyunOssConfig) GetBaseUrl() string {
 }
 
 //获取oss的配置
-func GetOssFromConsul(config config.Config, path ...string) *MysqlConfig {
-	mysqlConfig := &MysqlConfig{}
+func GetOssFromConsul(config config.Config, path ...string) *AliyunOssConfig {
+	obj := &AliyunOssConfig{}
 	//获取配置
-	config.Get(path...).Scan(mysqlConfig)
-	return mysqlConfig
+	config.Get(path...).Scan(obj)s
+	return obj
 }
