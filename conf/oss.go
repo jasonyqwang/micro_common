@@ -25,6 +25,6 @@ func (t AliyunOssConfig) GetBaseUrl() string {
 func GetOssFromConsul(config config.Config, path ...string) *AliyunOssConfig {
 	obj := &AliyunOssConfig{}
 	//获取配置
-	config.Get(path...).Scan(obj)s
+	config.Get(path...).Scan(obj)
 	return obj
 }
